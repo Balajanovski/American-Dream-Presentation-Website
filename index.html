@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>The American Dream</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+		<link rel="stylesheet" href="custom-css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="img/liberty.jpg">
+					<div class="fragment fade-up">
+						<div class="text-container">
+							<h3>The American Dream</h3>
+							<h7>"You stuff somebody into the American Dream and it becomes a prison"</h7><br>
+							<i>Craig L. Thomas</i>
+						</div>
+					</div>
+				</section>
+				<section data-transition="convex">
+					<section data-transition="convex" data-background-image="img/declaration.jpg">
+						<div class="text-container">
+							<h4>What is the American Dream?</h4>
+							<p>The American Dream is a set of utopian ideals including democracy, rights, liberty, opportunity and equality in which freedom includes the
+							opportunity for prosperity and success. In which through hard work in a society with theoretically few barriers, one can achieve upward
+							mobility for their family and themselves, doing better than their parents.<br><br> The American Dream is deeply rooted in the Declaration of Independence, which proclaims that
+							<i>"all men are equal"</i> with the right for <i>"life, liberty and the pursuit of happiness."</i></p>
+						</div>
+					</section>
+					<section data-transition="convex" data-background-image="img/great_depression.jpg">
+						<div class="text-container">
+							<h4>The Changing American Dream</h4>
+							<p>When the idea of the American Dream was first conceived it was defined by the virtues of working hard
+							and saving your money. When 1929 approached, and the Great Depression began, the ideals of the American Dream changed drastically.
+							This period of time was marked with poverty, and attributes such as being parsimonous became important. During this time period, the American Dream changed,
+							and people, through a time of struggle became more empathetic. The American Dream changed to include the element of a possibility of a better life for
+							everyone, regardless of their position in society or their heritage.</p>
+						</div>
+					</section>
+					<section data-transition="convex" data-background-image="img/the_dream.jpg">
+						<div class="text-container">
+							<h4>What is the American Dream Now?</h4>
+							<p>The American dream has changed drastically from what it was when it was originally conceived. One of the main ideals of the American Dream,
+							the ability to do better than your parents, is becoming harder and harder to achieve. Only 50% of America's 30 year olds are earning more
+							than their parents, which is a steep decline from the 1970s, when 92% of 30 year olds did. People without a college or university degree do not have the same
+							opportunity at having a good life in the extremely competitive job market of the 21st century. Jobs are few, and if you do not have a degree it is very
+							unlikely that you will secure a well paying job due to all the competition.</p>
+						</div>
+					</section>
+				</section>
+				<section data-transition="convex" data-background-image="img/jobs.jpeg">
+					<div class="text-container">
+						<h4>The Deteriorating American Dream</h4>
+						<p>The lack of opportunity for upward mobility due to the lack of jobs in America has resulted in lack of mobility in America's newer generations. Americans
+						are in a prison of downward mobility, or lack of mobility at all. As Craig L. Thomas said <i>You stuff somebody into the American Dream, it becomes a
+							prison</i>.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+            Reveal.configure({ backgroundTransition: 'convex' });
+            Reveal.configure({ slideNumber: true });
+		</script>
+	</body>
+</html>
